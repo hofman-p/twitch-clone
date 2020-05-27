@@ -1,3 +1,81 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #F1F1F1;
+  font-family: sans-serif;
+}
+
+/* HEADER */
+
+.headerTop {
+  background: #6441A4;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.menuList {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.navLinks {
+  list-style-type: none;
+  padding: 0 20px;
+  color: #FFF;
+}
+
+.navLinks:nth-child(4) {
+  margin: 0 auto;
+  flex-shrink: 1;
+  width: 600px;
+}
+
+.navLinks button {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 4px 20px;
+  border: none;
+}
+
+.twitchLogo {
+  margin-top: 5px;
+}
+
+.formSubmit {
+  display: flex;
+  flex-shrink: 1;
+}
+
+.searchIcon {
+  width: 20px;
+}
+
+.searchInput {
+  width: 50%;
+  background-color: #FFF;
+  border: 2px solid #FFF;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.menuResBtn {
+  display: none;
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  color: #FFF;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.menuIcon {
+  width: 25px;
 }
