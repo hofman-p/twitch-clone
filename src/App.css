@@ -4,31 +4,32 @@
 }
 
 body {
-  background: #F1F1F1;
+  background: #F7F7F9;
   font-family: sans-serif;
 }
 
 /* HEADER */
 
 .headerTop {
-  background: #6441A4;
-  height: 50px;
   position: fixed;
+  height: 50px;
   width: 100%;
   z-index: 1000;
+  background: #FFF;
+  box-shadow: 0 1px 2px rgba(0,0,0,.15), 0 0 2px rgba(0,0,0,.1) !important;
 }
 
 .menuList {
-  height: 50px;
   display: flex;
   align-items: center;
+  height: 50px;
   width: 100%;
 }
 
 .navLinks {
   list-style-type: none;
   padding: 0 20px;
-  color: #FFF;
+  color: #323234;
 }
 
 .navLinks:nth-child(4) {
@@ -40,8 +41,9 @@ body {
 .navLinks button {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  padding: 4px 20px;
+  padding: 8px 10px 8px 10px;
   border: none;
+  background-color: #F9F9F9;
 }
 
 .twitchLogo {
@@ -55,12 +57,13 @@ body {
 
 .searchIcon {
   width: 20px;
+  background-color: #F9F9F9;
 }
 
 .searchInput {
   width: 50%;
-  background-color: #FFF;
-  border: 2px solid #FFF;
+  background-color: #EFEFF1;
+  border: 2px solid #EFEFF1;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
@@ -78,4 +81,26 @@ body {
 
 .menuIcon {
   width: 25px;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+  position: fixed;
+  top: 50px;
+  width: 239px;
+  background: #EFEFF1;
+  height: 100vh;
+}
+
+.sidebarTitle {
+  padding: 30px 0 20px 0;
+  color: #323234;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.streamList {
+  padding-left: 10px;
+  color: #323234;
 }
