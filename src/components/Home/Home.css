@@ -1,0 +1,41 @@
+.topStreamsTitle, .topGamesTitle {
+  padding: 90px 0 10px 260px;
+  font-size: 1.8rem;
+  line-height: 1.2;
+  /* font-weight: 300; */
+}
+
+.topStreamsList, .topGamesList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 260px;
+}
+
+.topStreamsCardTitle {
+  width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.topGamesCardTitle {
+  width: 175px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.topStreamsCardImg, .topGamesCardImg {
+  transition: all 0.4s;
+}
+
+.topStreamsCardImg:hover, .topGamesCardImg:hover {
+  transform: translate(5px, -5px);
+}
+
+@media screen and (max-width: 1200px) {
+  .topStreamsTitle, .topGamesTitle, .topStreamsList, .topGamesList {
+    padding-left: 30px;
+  }
+}

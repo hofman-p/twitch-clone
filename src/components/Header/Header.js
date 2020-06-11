@@ -1,4 +1,5 @@
 import React from 'react';
+import './Header.css';
 import twitchLogo from './TwitchIcon.svg';
 import searchIcon from './SearchIcon.svg';
 import menuIcon from './MenuIcon.svg';

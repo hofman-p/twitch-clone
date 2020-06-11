@@ -1,0 +1,25 @@
+.sidebar {
+  position: fixed;
+  top: 50px;
+  width: 239px;
+  background: #EFEFF1;
+  height: 100vh;
+}
+
+.sidebarTitle {
+  padding: 30px 0 20px 0;
+  color: #323234;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.streamList {
+  padding-left: 10px;
+  color: #323234;
+}
+
+@media screen and (max-width: 1200px) {
+  .sidebar {
+    display: none;
+  }
+}
