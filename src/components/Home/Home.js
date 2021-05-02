@@ -28,7 +28,6 @@ function Home() {
         setTopGames(gamesData);
       } catch (error) {
         console.error(error);
-        throw new Error(error);
       }
     }
     fetchData();
